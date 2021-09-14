@@ -28,3 +28,6 @@ para quitar el archivo del stage
 
 git config --global alias.s "status"
 esta es para colocar alias a los comandos dea el q sea para facilidad de escritura
+
+git commit --amend -m "para nuevo mensaje"
+este comando es para que se pueda volver a escribir el mensaje que se escribio enel commit
