@@ -1,0 +1,23 @@
+comasdos git 
+
+git init 
+para iniciar un nuevo repositorio
+
+
+git status
+para visualizar los archivos disponibles antes de agregarlos al bashteich
+
+git add . 
+para agregarlos y se puedan modificar 
+
+git commit -m "mensage"
+para agregar los arvhisvos y señalar los cambios que se realizaron
+
+git checkout .
+para regresar ala ultima vercion del codigo y quitar los cambios 
+
+git log 
+para visualizar los  commit echos  hasta el momento 
+
+git diff
+para que muestre las diferencias en el archivo que seayan modificado 
