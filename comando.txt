@@ -26,5 +26,5 @@ para que muestre las diferencias en el archivo que seayan modificado
 git reset (archivo, extencion, carpeta)
 para quitar el archivo del stage
 
- cambios en este texto tambien le afectar ?
-este es otra linea
+git config --global alias.s "status"
+esta es para colocar alias a los comandos dea el q sea para facilidad de escritura
