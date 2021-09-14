@@ -39,6 +39,18 @@ este comando es para cambiar el nombre de un archivo ya guardado en el stage
 git rm princi.html
  este comando es para remover un archivo 
 
+git ignore 
+// para ignorar archivo o carpetas  se tiene que creae un archivo con extencion .gitignore
+y en el archivo escribir los nombre de los archivos que no queremos que se lleve su control
+pueden ser carpetas 
+config*  este significa que todo lo que empieze con config y lo que lleve despues 
+/config/  este significa que todo lo que empieze con config
+
+
+
+
+
+
 
  git reset --soft 20e65b434955ebdb65416902a857c2cb694ac463
  este comando es para recuperar la posicion de un ultimo commit nesesita agregar  el id de la ultima vez guadada
@@ -51,5 +63,13 @@ git rm princi.html
  este comando es para el historico de lo que se ha cambiado desde git 
 
  git reset --mixed 20e65b434955ebdb65416902a857c2cb694ac463
- es para sacar del stage un commit y volverlo a modifica por si le faltaba algo 
+ es para sacar del stage un commit y volverlo a modifica por si le faltaba algo  y no borra la informacion que ya tenia 
  es nesesario agregar el id del commit 
+
+ git  reset --soft 20e65b434955ebdb65416902a857c2cb694ac463
+ te manda al momento indicado en el ip del summit y no deja ver los ultimo  esto solo te pone en la posicion indicada
+
+git reflog para ver el historia copiar la ultima ip del commit y regresar al punto donde estabamos con todos los cambios 
+
+git reset --hard 20e65b434955ebdb65416902a857c2cb694ac463
+este te regresara al ip ingrresado q en este caso es el ultimo cambio que se hizo
