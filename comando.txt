@@ -148,6 +148,11 @@ los cambios de  sus archivos esto le mada una solicitus donde el vera los cambio
 lo cual el desidira si agrega los cambios q le mandaron o no y se pueden ir comentado cosas adiacionale 
 todo desde github 
 
+// ///////////////////////////// integrar git y github a nuestro ides de edicion en mi caso vs y netbeans-------------------
+
+en netbeans praticamente es en la pestaña teams donde esta la opcion de git y puedes clonar un repositorio con ayuda dela interfaces
+solo leccionas la acciones que haras y para mandar de regreso los cambios ya sean add  commit  push 
+en el proyecto click derecho --git y seleccionar la opcion 
 
 
  git reset --soft 20e65b434955ebdb65416902a857c2cb694ac463
