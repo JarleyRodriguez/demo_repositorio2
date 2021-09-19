@@ -46,12 +46,29 @@ pueden ser carpetas
 config*  este significa que todo lo que empieze con config y lo que lleve despues 
 /config/  este significa que todo lo que empieze con config
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////77
+git branch nombredelarama
+este comando es para agregar una nueva rama al proyecto  
+
+git checkout nombredelarama 
+para cambiar de la rama master a la rama secundaria ya echa 
+
+git log --oneline --decorate --all --graph
+para mostrar el historial y las ramas echas 
+
+git merge nueva_funcionalidad --osea el nombre de la rama secundaria
+esta funcion va permitir unir la rama secundaria con la rama principal master 
+
+git branch -d nueva_funcionalidad
+este comando es para borrar la rama secundaria ya que en el comando anterior la unimos a la principal 
+si no la agrgeamos ala master y se quiere borrar basta con cambiar -d por -D 
+
+
+yeah
 
 
 
-
-
-
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////7
  git reset --soft 20e65b434955ebdb65416902a857c2cb694ac463
  este comando es para recuperar la posicion de un ultimo commit nesesita agregar  el id de la ultima vez guadada
  mas aparte para recuperar el archivo es nesesario el comando 
