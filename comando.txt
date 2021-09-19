@@ -137,6 +137,18 @@ y selecionar la opcion de guardarlo en el master o crear una rama
 ahora me parece q puedo agregar los cambios echosdesde el otro repositorio
 
 
+//////////////////// repositorio que queremos sacar copias y modificarlo Fork  ---------------------------
+
+practicamente en un repositorio en giyhub le puedes poner fork lo cual te creara un repositorio en tu cuanda local
+ahora solo se deve de  clonar en una carpeta local de tu maquina 
+
+////////////////////////////// sugerir cambios a un repositorio de un repositorio de  copiamos ---------------
+pull request es una funcion del github donde le mandas al usuario principal del repositorio
+los cambios de  sus archivos esto le mada una solicitus donde el vera los cambios y comentarios que le pongas 
+lo cual el desidira si agrega los cambios q le mandaron o no y se pueden ir comentado cosas adiacionale 
+todo desde github 
+
+
 
  git reset --soft 20e65b434955ebdb65416902a857c2cb694ac463
  este comando es para recuperar la posicion de un ultimo commit nesesita agregar  el id de la ultima vez guadada
