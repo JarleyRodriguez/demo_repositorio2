@@ -78,12 +78,6 @@ asi q se tiene que corregir manuealmente como seria la estructura correcta del a
 
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////7
-
-
-
-
-
 
 //////////////////// etiquetas //////////////////////////////////////////////////////////////////////////////////////////////////////////////7
 git tag nombredeetiqueta
@@ -99,13 +93,29 @@ este comando permite  agregar notas adiciones a la etiqueta
 git show V1.0.0
 este comando mostrara todo lo que lleva hasta el moento de esta etiqueta de vercion
 
-/////////////////////////////////////////////////////////////////77
+para cuando  quieres establecer una etiqueta en commit anteriores 
+git tag -a v0.0.1 idDelTagDondeAbarcaraLaEquiqueta -m "mensaje apartir de la etiqueta"
 
 
 
+//////////////////////////// subiraun repositorio vacio a gitHub  ///////////////////////////////////////////////////////
 
+1.- creamos un repositorio en hubhub 
+2.- en una carpeta local de lap iniciamos git 
+3.- en el repositorio creado te da las instrucciones para agrgear algun cambio de la carpeta local
+se tiene que poner el comando git remote add origin direccionlink del repositorio
+4.- git push -u origin master // aqui se espesifica bien la rama q se enviara 
+te preguntara unuario y clave de github 
+se agregaran los cambio en el repositorio github
 
+/////////////// subir un repositorio que ya tienes en local ////////////////////77
 
+1.- desde la carpeta de tu repositorio local 
+agrgeargit remote add origin link del repositorio
+2.-se puede crear una nueva rama o mandar la master 
+3.- git push -u origin master
+
+asi se subira el repositorio local que ya tenias 
 
 
 
