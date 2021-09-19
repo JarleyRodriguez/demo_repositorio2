@@ -64,6 +64,8 @@ este comando es para borrar la rama secundaria ya que en el comando anterior la 
 si no la agrgeamos ala master y se quiere borrar basta con cambiar -d por -D 
 
 
+yeah
+
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////7
