@@ -79,13 +79,43 @@ asi q se tiene que corregir manuealmente como seria la estructura correcta del a
 
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////7
+
+
+
+
+
+
+//////////////////// etiquetas //////////////////////////////////////////////////////////////////////////////////////////////////////////////7
+git tag nombredeetiqueta
+esto agregara la etiqueta al ultimo commit echo creo
+
+git tag -d nombredeetiqueta
+esto borrar la etiqueta 
+
+git tag -a V1.0.0 -m depende la posicion del valor segun los cambior realizados muy importantes a minimo
+este comando permite  agregar notas adiciones a la etiqueta 
+
+
+git show V1.0.0
+este comando mostrara todo lo que lleva hasta el moento de esta etiqueta de vercion
+
+/////////////////////////////////////////////////////////////////77
+
+
+
+
+
+
+
+
+
  git reset --soft 20e65b434955ebdb65416902a857c2cb694ac463
  este comando es para recuperar la posicion de un ultimo commit nesesita agregar  el id de la ultima vez guadada
  mas aparte para recuperar el archivo es nesesario el comando 
 
  git reset --hard 20e65b434955ebdb65416902a857c2cb694ac463
  este recupera el archivo y se nesesita comolar el id del commit
-
+ 
  git reflog
  este comando es para el historico de lo que se ha cambiado desde git 
 
