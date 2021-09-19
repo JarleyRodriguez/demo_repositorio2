@@ -124,6 +124,13 @@ en github te da la opcion de clonar unod e tus repositorio esto se usa para trab
 ya q lo descrgaste abre la carpeta y ya reconoce los comandos git
 ya modificado guardas cambios y usas el comando para push al repositorio
 
+////////////////////////////////// git pull  descargar cambios del repositorio ///////////////////////////////////////////////////////
+
+si se cambia algunas cosas desde la pagina de github te permite agregar un nuevo archivo
+en la pestaña de preview te permite ver como lusira el cambio y agregar el nombre del commit q se realizaria
+y selecionar la opcion de guardarlo en el master o crear una rama 
+- pero estos cambios echos desde la pagina aun no se reflejaran en local
+
 
 
  git reset --soft 20e65b434955ebdb65416902a857c2cb694ac463
