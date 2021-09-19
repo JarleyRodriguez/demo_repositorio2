@@ -64,6 +64,12 @@ este comando es para borrar la rama secundaria ya que en el comando anterior la 
 si no la agrgeamos ala master y se quiere borrar basta con cambiar -d por -D 
 
 
+// en dado caso de que al unir con merge salga una ventana que te pide escribir un mensaje hacer lo siguiente 
+1.- i --para insertar
+2.- escribir mensaje 
+3.- esc para escribir comando 
+4.- :wq para salir 
+
 yeah
 
 
