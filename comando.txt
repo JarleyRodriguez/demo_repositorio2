@@ -131,6 +131,11 @@ en la pestaña de preview te permite ver como lusira el cambio y agregar el nomb
 y selecionar la opcion de guardarlo en el master o crear una rama 
 - pero estos cambios echos desde la pagina aun no se reflejaran en local
 
+-- como tengo el mismo repositorio en dos carpetas 
+1.- tuve que  ponerle pull para que me descargara los cambios echos desde la otra carpeta 
+2.- me salio la consola para escribir los cambios y fusionarlos  tuve que agregarle :wq! para que pudiera salir de hay 
+ahora me parece q puedo agregar los cambios echosdesde el otro repositorio
+
 
 
  git reset --soft 20e65b434955ebdb65416902a857c2cb694ac463
