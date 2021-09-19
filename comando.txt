@@ -46,7 +46,7 @@ pueden ser carpetas
 config*  este significa que todo lo que empieze con config y lo que lleve despues 
 /config/  este significa que todo lo que empieze con config
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////77
+//////////////////////////////////////ccrear ramas y agregarlas al master///////////////////////////////////////////////////////////////////77
 git branch nombredelarama
 este comando es para agregar una nueva rama al proyecto  
 
@@ -71,6 +71,10 @@ si no la agrgeamos ala master y se quiere borrar basta con cambiar -d por -D
 4.- :wq para salir 
 
 yeah
+// nota en los conflictos de merge donde se modifican en la rama y se modifica el mismo archivo en el master 
+marca un error al querer unir por q son diferentes
+asi q se tiene que corregir manuealmente como seria la estructura correcta del archivo y despues ya se puede unir la rama 
+
 
 
 
