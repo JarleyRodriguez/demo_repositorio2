@@ -116,6 +116,13 @@ agrgeargit remote add origin link del repositorio
 3.- git push -u origin master
 
 asi se subira el repositorio local que ya tenias 
+////////////////////// clonar repositorio desde github////////////////
+
+en github te da la opcion de clonar unod e tus repositorio esto se usa para trabajr en otra maquina por ejemplo 
+1.-te diriges desde la temrinal git ala carpeta donde descargaras el repositorio
+2.- pegas el comando que te lo da github el cual es 
+ya q lo descrgaste abre la carpeta y ya reconoce los comandos git
+ya modificado guardas cambios y usas el comando para push al repositorio
 
 
 
