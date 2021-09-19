@@ -154,3 +154,6 @@ git reflog para ver el historia copiar la ultima ip del commit y regresar al pun
 
 git reset --hard 20e65b434955ebdb65416902a857c2cb694ac463
 este te regresara al ip ingrresado q en este caso es el ultimo cambio que se hizo
+
+
+// le agregare un cambio a este documento sola para mandar el cambio a github
